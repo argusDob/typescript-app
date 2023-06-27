@@ -51,7 +51,6 @@ const selectedProduct = ref<Product | null>(null);
 
 const openModal = (product: Product) => {
   selectedProduct.value = product;
-  console.log(selectedProduct.value);
   modalOpen.value = true;
 };
 
