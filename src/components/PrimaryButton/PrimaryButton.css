@@ -1,0 +1,23 @@
+@import "../../assets/CSS/spacers.css";
+
+.primary-button {
+    padding: var(--spacer-12) var(--spacer-24);
+    font-size: var(--spacer-12);
+    border-radius: var(--spacer-4);
+    cursor: pointer;
+    }
+    
+    .success {
+    background-color: #28a745;
+    color: #fff;
+    }
+    
+    .warning {
+    background-color: #ffc107;
+    color: #000;
+    }
+    
+    .danger {
+    background-color: #dc3545;
+    color: #fff;
+    }

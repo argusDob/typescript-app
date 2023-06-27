@@ -1,0 +1,34 @@
+@import "../../assets/CSS/spacers.css";
+
+
+.input-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-text__label {
+    margin-bottom: var(--spacer-8);
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: left;
+  }
+  
+  .input-text__input {
+    width: 97%;
+    padding: var(--spacer-12);
+    border: var(--spacer-2) solid #ccc;
+    border-radius: var(--spacer-4);
+    font-size: var(--spacer-12);
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+
+  @media (max-width: 974px) {
+    .input-text__input {
+      width: 95%;
+    }
+  }
+  
+  .input-text__input:focus {
+    border-color: #007BFF;  /* Change this to your desired color */
+  }

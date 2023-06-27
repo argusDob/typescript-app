@@ -1,0 +1,25 @@
+@import "../../assets/CSS/spacers.css";
+
+.order-item {
+    width: 95%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: var(--spacer-4);
+    background-color: #fff;
+    box-shadow: 0 var(--spacer-2) var(--spacer-4) rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: var(--spacer-12);
+  }
+
+  .order-item__remove{
+    display: flex;
+    justify-content: flex-end;
+    font-size: var(--spacer-24);
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .order-item__primary-button{
+    margin-top: var(--spacer-24);
+  }
+  

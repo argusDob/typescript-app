@@ -1,0 +1,5 @@
+@import "../../assets/CSS/spacers.css";
+
+.product-item {
+    margin-bottom: var(--spacer-12);
+  }

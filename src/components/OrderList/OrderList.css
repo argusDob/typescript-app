@@ -1,0 +1,12 @@
+.order-list {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: var(--spacer-8);
+  }
+  
+  @media (max-width: 974px) {
+    .order-list {
+      grid-template-columns: 1fr;
+    }
+  }

@@ -1,0 +1,15 @@
+@import "../../assets/CSS/spacers.css";
+
+.product-list__items {
+    display: grid;
+    gap: var(--spacer-8);
+  }
+  
+  h2 {
+    cursor: pointer;
+  }
+
+  .product-list__title {
+    display: flex;
+    justify-content: space-between;
+  }
